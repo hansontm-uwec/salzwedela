@@ -130,7 +130,7 @@ h2{
     text-align: center;
     color: #2c352b;
 }
-.centerpiece .bridal-bouquet .corsage{
+.centerpiece, .Bridal-bouquet, .Corsage{
     width: 60%;
     margin: 1rem;
 }
@@ -240,6 +240,10 @@ input[type=text], [type=email],[type=tel], textarea{
         margin-left: 2rem;
         text-align: center;
     }
+    .centerpiece, .Bridal-bouquet, .Corsage{
+        width: 31%;
+        margin: 1rem;
+    }
     p{
         font-size: 1.25rem;
     }
@@ -290,15 +294,9 @@ input[type=text], [type=email],[type=tel], textarea{
    }
    .centerpiece img{
        margin: .5rem;
-       width: 275px;
    }
    .Bridal-bouquet{
     margin: .5rem;
-    width: 900px;
-    }
-    .Corsage{
-        margin: .5rem;
-        width: 600px;
     }
     .phone-email{
         display: flex;
@@ -382,9 +380,6 @@ input[type=text], [type=email],[type=tel], textarea{
 @media (min-width: 1200px){
     .intro-images{
         justify-content: space-between;
-    }
-    .centerpiece img{
-        width: 350px;
     }
     .six-week img{
         margin-left: 2rem;
