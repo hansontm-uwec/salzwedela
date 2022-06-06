@@ -54,7 +54,6 @@ nav a:hover{
 }
 .flower-stand img{
     width: 85%;
-    height: 50%;
     margin: 1.5rem;
     align-content: center;
 }
@@ -88,7 +87,6 @@ section{
 }
 .intro-images img{
     width: 60%;
-    height: 40%;
     margin-left: 20%;
 }
 h3{
@@ -227,14 +225,12 @@ input[type=text], [type=email],[type=tel], textarea{
     }
     .flower-stand img{
         width: 70%;
-        height: 500px;
     }
     .flower-stand{
         display: flex;
         justify-content: center;
     }
     .who-are-we img{
-        height: 400px;
         margin-left: 3rem;
     }
     .who-are-we p{
@@ -255,24 +251,20 @@ input[type=text], [type=email],[type=tel], textarea{
     }
     .events img{
         width: 350px; 
-        height: 400px;
         margin: .5rem;
     }
     .home-shop img{
         width: 300px;
-        height: 400px;
         margin: .5rem;
     }
     .home-subs img{
         width: 300px;
-        height: 400px;
         margin: .5rem;
     }
     .location img{
         margin-top: 1.5rem;
         margin-right: 0;
         width: 400px;
-        height: 250px;
     }
     footer{
         font-size: .80rem;
@@ -285,7 +277,6 @@ input[type=text], [type=email],[type=tel], textarea{
    }
    .our-story img{
        width: 50%;
-       height: 60%;
    }
    .our-story p{
        margin-top: 6rem;
@@ -300,7 +291,6 @@ input[type=text], [type=email],[type=tel], textarea{
    .centerpiece img{
        margin: .5rem;
        width: 275px;
-       height: 277px;
    }
    .Bridal-bouquet{
     margin: .5rem;
@@ -340,7 +330,6 @@ input[type=text], [type=email],[type=tel], textarea{
     }
     .contact-image img{
         width: 300px;
-        height: 400px;
         margin-bottom: 2rem;
     }
     .contact-image{
@@ -363,7 +352,6 @@ input[type=text], [type=email],[type=tel], textarea{
    }
    .six-week img{
        width: 110%;
-       height: 65%;
    }
    .six-week{
        margin: 2rem;
@@ -377,7 +365,6 @@ input[type=text], [type=email],[type=tel], textarea{
    }
    .ten-week img{
        width: 70%;
-       height: 65%;
    }
     .flower-bulb{
         display: flex;
@@ -391,16 +378,12 @@ input[type=text], [type=email],[type=tel], textarea{
     .bulbs{
         margin: .5rem;
     }
-    .bulbs img{
-        height: 325px;
-    }
 }
 @media (min-width: 1200px){
     .intro-images{
         justify-content: space-between;
     }
     .centerpiece img{
-        height: 340px;
         width: 350px;
     }
     .six-week img{
@@ -408,8 +391,5 @@ input[type=text], [type=email],[type=tel], textarea{
     }
     .sixp{
         margin-left: 5rem;
-    }
-    .bulbs img{
-        height: 400px;
     }
 }
