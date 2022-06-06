@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <script src="toggle-nav.js"></script>
+    <title>Rusty Shovel Gardens</title>
+</head>
+<body>
+    <header>
+        <img src="Images/Logo_images.png" alt="Rusty Shovel Gardens logo">
+        <h1>Rusty Shovel Gardens</h1>
+        <a class="menu" onclick="toggleNav()">Menu</a>
+        <nav class="toggle-nav">
+            <a href="Home.html">Home</a>
+            <a href="About-us.html">About Us</a>
+            <a href="special-events.html">Special Events</a>
+            <a href="shop.html">Shop Our Flowers</a>
+            <a href="workshops.html">Workshops</a>
+            <a href="contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-us">
+            <h2>Contact Us!</h2>
+            <div class="contact-image">
+                <img src="Images/contact-us.jpeg" alt="the flower farm">
+                <p>
+                    If you have any question about us or would like to reach out for a custom request, you can reach out through social media, over email, or call us! You could also leave us a message using the form provided below.
+                </p>
+            </div>
+            <form>
+                <label>Full Name:</label>
+                <input type="text">
+                <label>Phone Number:</label>
+                <input type="tel">
+                <label>Email:</label>
+                <input type="email">
+                <label>Message Box:</label>
+                <textarea>Type message here...</textarea>
+                <input type="submit" class="submit">
+            </form>
+        </section>
+    </main>
+    </body>
+    </html>
